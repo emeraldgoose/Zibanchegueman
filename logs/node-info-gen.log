@@ -1,0 +1,23 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/minseongkim/cordapp-example/kotlin-source/build/nodes/.cache/apps/net.corda.node.Corda_3.3-corda/log4j-slf4j-impl-2.9.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/minseongkim/cordapp-example/kotlin-source/build/nodes/O%3dTESTNET_Sejong%20blockchain%20team%202/cordapps/corda-tools-network-bootstrapper.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+[91m   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         [94mA banker with nobody around may find
+[91m/ /___  /_/ / /  / /_/ / /_/ /          [94mthemselves .... a-loan! <applause>
+[91m\____/     /_/   \__,_/\__,_/[m
+
+[99;1m--- Corda Open Source 3.3-corda (c834162) -----------------------------------------------
+
+[m
+Logs can be found in                    : /Users/minseongkim/cordapp-example/kotlin-source/build/nodes/O=TESTNET_Sejong blockchain team 2/logs
+Database connection url is              : jdbc:h2:tcp://localhost:54498/node
+Advertised P2P messaging addresses      : 34.69.248.204:10002
+RPC connection address                  : 0.0.0.0:10003
+RPC admin connection address            : 0.0.0.0:10004
+Loaded CorDapps                         : corda-finance-3.3-corda, corda-tools-network-bootstrapper, cordapp-example-0.1, corda-core-3.3-corda
+Node for "O=TESTNET_Sejong blockchain team 2" started up and registered in 58.7 sec
+Shutting down ...
