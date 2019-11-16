@@ -1,0 +1,13 @@
+[Unit]
+Description=Corda Node - vaultServer
+Requires=network.target
+
+[Service]
+Type=simple
+User=corda
+WorkingDirectory=/opt/vaultServer
+ExecStart=/usr/bin/java -Xmx2048m -jar /opt/vaultServer/corda.jar
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
