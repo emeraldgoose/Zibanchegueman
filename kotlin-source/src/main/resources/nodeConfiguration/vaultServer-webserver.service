@@ -1,0 +1,13 @@
+[Unit]
+Description=Webserver for Corda Node - vaultServer
+Requires=network.target
+
+[Service]
+Type=simple
+User=corda
+WorkingDirectory=/opt/vaultServer
+ExecStart=/usr/bin/java -jar /opt/vaultServer/corda-webserver.jar
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
