@@ -4,5 +4,5 @@
 ## Tool
 - intelliJ IDEA
 - JRE8
-## front-end
+## App
 - https://github.com/hyunstory/zibanchegueman
